@@ -1,7 +1,4 @@
-nclude <stdio.h>
-
-
-
+#include <stdio.h>
 /**
  *
  * * main - print the string in the put function
@@ -17,11 +14,7 @@ nclude <stdio.h>
  * */
 
 int main(void)
-
 {
-
-		printf("with proper grammar, but the outcome is a piece of art,\n");
-
-			return (0);
-
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
