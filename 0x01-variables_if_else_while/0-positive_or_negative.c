@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- *main - main block
- *Description: Get a random number and print the number
- *and if it is positive, negative, or zero
- *Return: 0
+/**
+ *  * main - Entry point
+ *    * Description: 'the program's description'
+ *      * Return: Always 0 (Success)
  */
 
 int main(void)
