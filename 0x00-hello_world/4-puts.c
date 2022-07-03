@@ -3,6 +3,7 @@
 /**
  *  * main - Entry point
 <<<<<<< HEAD
+<<<<<<< HEAD
  *   * Comment: prints "\"Programming is like building a multilingual puzzle"
  *    * Return: 0
  */
@@ -13,8 +14,11 @@ int main(void)
 			return (0);
 =======
  *   * Description: prints "\"Programming is like building a multilingual puzzle"
+=======
+ *   * Comments: prints "\"Programming is like building a multilingual puzzle"
+>>>>>>> 7c5174a23f0ac89dd243fc0b4455f5440a20dd4d
  *    * Return: 0
- *     */
+ */
 
 int main(void)
 {
