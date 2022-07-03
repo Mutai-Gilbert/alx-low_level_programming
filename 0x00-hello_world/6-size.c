@@ -1,12 +1,8 @@
 #include<stdio.h>
 /**
-<<<<<<< HEAD
  * main - print the string in the put function
-=======
- * * main - print the string in the put function
->>>>>>> 7c5174a23f0ac89dd243fc0b4455f5440a20dd4d
- * * Description: using the main function
- * * this program prints "Programming is like building a multilingual puzzle
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle
  * * Return: 0
  */
 
