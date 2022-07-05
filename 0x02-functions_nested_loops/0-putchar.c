@@ -1,10 +1,13 @@
 #include "main.h"
+
 /**
- * main - Print "Holberton" followed by a new line.
- * Description: The program should return 0
- * Return: 0
+ *  * main - Print "Holberton" followed by a new line.
+ *   * Description: You are not allowed to include standard libraries.
+ *    * Return: 0
  */
+
 int main(void)
+
 {
 char holberton[] = "Holberton";
 int i = 0;
