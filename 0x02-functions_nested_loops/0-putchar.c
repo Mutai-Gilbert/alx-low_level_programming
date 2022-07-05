@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Print "Holberton" followed by a new line.
  * Description: The program should return 0
