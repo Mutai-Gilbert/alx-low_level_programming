@@ -9,11 +9,11 @@
 int main(void)
 
 {
-char holberton[] = "_putchar";
+char g[] = "_putchar";
 int i = 0;
-while (holberton[i] != '\0')
+while (g[i] != '\0')
 {
-_putchar(holberton[i]);
+_putchar(g[i]);
 i++;
 }
 _putchar('\n');
