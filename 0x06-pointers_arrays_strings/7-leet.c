@@ -2,20 +2,27 @@
 #include <stdio.h>
 
 /**
- * leet - function that encodes a string into 1337
- * main - entry pount
- * @s: string
- * Return: encoded string `s`
+ *  * leet - encode a string into 1337
+ *   * @s: string
+ *    * Return: encoded string `s`
  */
 
 char *leet(char *s)
-int main(void)
 {
-	char s[] = "Expect the best. Prepare for the worst.\n";
-	char *p;
+	int i;
 
-	p = leet(s);
-	printf("%s", p);
-	printf("%s", s);
-	return (0);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		while (s[i] == 'a' || s[i] == 'A')
+			s[i] = '4';
+		while (s[i] == 'e' || s[i] == 'E')
+			s[i] = '3';
+		while (s[i] == 'o' || s[i] == 'O')
+			s[i] = '0';
+		while (s[i] == 't' || s[i] == 'T')
+			s[i] = '7';
+		while (s[i] == 'l' || s[i] == 'L')
+			s[i] = '1';
+	}
+	return (s);
 }
