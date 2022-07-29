@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  *_calloc - function to perform calloc using malloc
  * @nmemb: number of elements
