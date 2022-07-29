@@ -20,6 +20,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	i = 0;
 	while (s1[i])
 		i++;
+	i++;
 	comb = malloc(sizeof(*comb) * (i + n));
 	if (comb == NULL)
 		return (NULL);
